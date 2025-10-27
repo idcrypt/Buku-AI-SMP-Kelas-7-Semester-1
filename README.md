@@ -1,6 +1,7 @@
-# BUKU AI SD/MI Kelas 5 Semester 1: Belajar Logika, Coding Visual, Literasi Digital, dan AI
-Aolia Ikhwanudin
+# Buku AI SMP Kelas 7 Semester 1 Mulai Petualanganmu di Dunia AI & Coding!
+Chendri Irawan SN
 Onno W. Purbo
+Jumlah Pertemuan: 14
 Institut Teknologi Tangerang Selatan (ITTS)
 2025
 
