@@ -7,7 +7,7 @@
 
   <!--
     Catatan: file ini sengaja verbose (banyak komentar & struktur) agar mudah dibaca.
-    Total halaman diatur oleh TOTAL_PAGES (default 267).
+    Total halaman diatur oleh TOTAL_PAGES (default 98).
     Pastikan:
       - images/page1.png ... images/page950.png tersedia
       - sounds/flip.mp3 tersedia
@@ -714,7 +714,7 @@
     // Build juz navigation based on TOTAL_PAGES distribution (even split) — user can adjust mapping if needed
     function computeJuzStarts(){
       const arr = [];
-      const per = TOTAL_PAGES / 7;
+      const per = TOTAL_PAGES / 10;
       for(let i=0;i<10;i++){
         const page = Math.max(1, Math.round(i * per) + 1); // 1-based
         arr.push(page);
@@ -738,7 +738,7 @@ const juzStarts = [
     function buildJuzNav(){
       const $nav = $("#juzNav");
       $nav.empty();
-      for(let i=1;i<=6;i++){
+      for(let i=1;i<=7;i++){
         const btn = $("<button>").text(`BAB ${i}`).on("click", ()=>goTo(juzStarts[i-1]));
         $nav.append(btn);
       }
